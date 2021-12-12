@@ -16,8 +16,7 @@ def write(df):
 
     st.markdown('-----------------------------------------------------')
 
-    st.header("Airbnb New York Listings: Data Analysis")
-    st.markdown("Following is presented the first 10 records of Airbnb data. These records are grouped along 16 columns with a variety of informations as host name, price, room type, minimum of nights,reviews and reviews per month.")
-    st.markdown("We will start with familiarizing ourselves with the columns in the dataset, to understand what each feature represents.")
+    st.header("Airbnb London Listings: Data Analysis")
+    st.markdown("Presented below are the first 10 records of Airbnb data. These records are grouped along 16 columns with a variety of info such as host name, price, room type, minimum of nights,reviews and reviews per month.")
     st.dataframe(df.head(10))
     st.markdown("")
